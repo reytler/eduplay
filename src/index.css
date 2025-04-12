@@ -1,3 +1,81 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Definindo o estilo global */
+body {
+    font-family: 'Arial', sans-serif; /* Fonte limpa e legível */
+    background: linear-gradient(135deg, #d9e7f0, #fffae6); /* Gradiente suave de azul claro para amarelo */
+    color: #333; /* Cor de texto principal */
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Cabeçalho */
+  h1 {
+    font-size: 3rem;
+    color: #2d3e50; /* Cor escura para o título */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombras suaves para dar destaque */
+  }
+  
+  /* Subtítulo ou slogan */
+  h2 {
+    font-size: 1.5rem;
+    color: #3a3a3a; /* Cor de texto secundário */
+    margin-bottom: 40px;
+  }
+  
+  /* Botão (para interatividade) */
+  button {
+    background-color: #f8b400; /* Amarelo vibrante */
+    color: white;
+    font-size: 1.1rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff9f00; /* Cor mais intensa ao passar o mouse */
+  }
+  
+  /* Cartão de conteúdo */
+  .card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombras sutis para destacar os cards */
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 20px;
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    color: #2d3e50;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Link estilizado (como referência ou navegação) */
+  a {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
