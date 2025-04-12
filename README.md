@@ -1,54 +1,27 @@
-# React + TypeScript + Vite
+# Eduplay
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Eduplay é uma plataforma interativa projetada para tornar as aulas mais dinâmicas e envolventes. O objetivo principal deste projeto é oferecer soluções para dinâmicas educativas, permitindo que professores e alunos interajam de maneira divertida e eficiente. Com Eduplay, as aulas se tornam mais envolventes, promovendo a colaboração, aprendizado ativo e engajamento.
 
-Currently, two official plugins are available:
+## 🚀 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Interatividade nas aulas**: Ferramentas para criar dinâmicas educativas de maneira interativa.
+- **Facilidade de uso**: Interface intuitiva tanto para professores quanto para alunos.
+- **Acessível**: Criado para ser usado em diferentes dispositivos e plataformas.
 
-## Expanding the ESLint configuration
+## 🔧 Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Frontend**: React.js, TypeScript, Tailwind CSS
+- **Backend**: (Aqui você pode adicionar o backend, se aplicável, como Node.js, Express, etc.)
+- **Banco de Dados**: (Se você estiver usando algum banco de dados, adicione as tecnologias aqui, como MongoDB, PostgreSQL, etc.)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 💻 Instalação
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Siga os passos abaixo para rodar o projeto localmente:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 1. Clone o repositório
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+```bash
+git clone https://github.com/reytler/eduplay.git
+cd eduplay
+npm install
+npm run dev
