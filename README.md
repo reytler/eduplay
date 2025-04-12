@@ -11,8 +11,8 @@ Eduplay é uma plataforma interativa projetada para tornar as aulas mais dinâmi
 ## 🔧 Tecnologias Utilizadas
 
 - **Frontend**: React.js, TypeScript, Tailwind CSS
-- **Backend**: (Aqui você pode adicionar o backend, se aplicável, como Node.js, Express, etc.)
-- **Banco de Dados**: (Se você estiver usando algum banco de dados, adicione as tecnologias aqui, como MongoDB, PostgreSQL, etc.)
+
+- **Pré requisito**: NodeJs v18.20.4
 
 ## 💻 Instalação
 
@@ -25,3 +25,7 @@ git clone https://github.com/reytler/eduplay.git
 cd eduplay
 npm install
 npm run dev
+```
+Acesse: http://localhost:5173/
+
+E use em sua aula...
